@@ -67,7 +67,7 @@ padding: 10px;
 /*                               Home Css                   */
 #home{ 
     font-family: "Open Sans", sans-serif;
-    background-image: url(/image/BG.png);
+    background-image: url(../image/BG.png);
     height: 90vh;
     background-repeat: no-repeat;
     background-size:cover;
