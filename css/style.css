@@ -56,7 +56,7 @@ header nav{
 height: 30px;
 width: 350px;
 border: none;
-background-color: rgba(202, 202, 202, 0.563);
+background-color: rgba(233, 233, 233, 0.51);
 border-radius: 50px;
 padding: 10px;
 
@@ -92,7 +92,9 @@ padding: 10px;
     color: #C60404;
 }
 #learn:hover{
-    background-color:rgb(228, 228, 228);
+    border: solid white 4px ;
+    color: white;
+    background-color:#C60404;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.711);
     transition: 0.5s;
     cursor: pointer;
@@ -142,6 +144,14 @@ padding: 10px;
     background-color: #C60404;
 }
 
+.line3{
+    width: .4%;
+    height: 15rem;
+    margin: 30px;
+    border-radius: 2rem;
+    background-color: #C60404;
+}
+
 #MOT{
     text-align: center;
     color: #C60404;
@@ -176,3 +186,41 @@ padding: 10px;
 
 }
 /*                               End                 */
+
+
+/*                               Services Css                   */
+
+#service{
+    height: 100vh;
+    background-image: url(../image/ourservice3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicecontainer{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+ 
+}
+.serviceboxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+  
+    
+   
+}
+.service{
+
+    margin-right: 10px;
+    text-align: center;
+}
+.service h2{
+    color: #C60404;
+}
