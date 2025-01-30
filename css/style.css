@@ -253,9 +253,38 @@ padding: 10px;
 
 #gallery{
     height: 100vh;
+
     background-image: url(../image/gallery2.png);
     background-repeat: no-repeat;
     background-size: cover;
+   
+}
+.gallerycontainer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top:60px;
+}
+
+.galleryitem{
+    background-color:#C60404;
+    height: 320px;
+    width: 40%;
+}
+
+
+
+.galleryitem2{
+    background-color:#000000;
+    height: 160px;
+    width: 10%;
+}
+
+.descrip{
+    background-color: white;
+    width: 100%;
 }
 
 /*                          End                         */
