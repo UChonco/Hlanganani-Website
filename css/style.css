@@ -288,3 +288,61 @@ padding: 10px;
 }
 
 /*                          End                         */
+
+/*                               Contact Css                   */
+
+#contact{
+    height: 120vh;
+ 
+
+}
+
+
+
+/* form */
+
+.openlogin{
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.314);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logincontainer{
+    font-family: "Open Sans", sans-serif;
+    color: #C60404;
+    border-radius: 20px;
+    font-style:italic;
+    font-weight: bold   ;
+    background-color: white;
+    width: 20%  ;    
+    text-align: center;
+    height: 450px;
+
+
+}
+
+.logincontainer input{
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+}
+.close {
+   float:right;
+    font-size: 20px;
+    cursor: pointer;    
+    padding-right: 10px;
+}
+
+.logincontainer button{
+    border: none;
+    background-color:#C60404;
+    border-radius: 20px;
+    color: white;
+    width: 120px;
+    height:40px;
+}
