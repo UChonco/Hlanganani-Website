@@ -24,7 +24,7 @@
            
             </ul>
             <div id="icon">
-                <a href=""><i class="fa-solid fa-user"  id="icon"></i></a>
+                <button><i class="fa-solid fa-user"  id="icon" onclick="openLogin()"></i></button>
                 <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
         </nav>
@@ -40,9 +40,9 @@
         <button id="learn">Learn More</button>
      </div>
 
-     <div class="openlogin">
+     <div id="openlogin">
         <form action="" class="logincontainer">
-            <span class="close" onclick="closeModal()">&times;</span> <br>
+            <span class="close"  onclick="closeLogin()">&times;</span> <br>
             <h1>Login</h1>
             <label for="email">Email:</label><br> <br>
             <input type="email" id="email" name="email" required> <br> <br> <br>
@@ -281,5 +281,6 @@
 </section>
 
     <script src="https://kit.fontawesome.com/e9c7a34475.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

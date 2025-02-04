@@ -301,13 +301,13 @@ padding: 10px;
 
 /* form */
 
-.openlogin{
+#openlogin{
+    display: none;
+    position: fixed;
     height: 100vh;
     background-color: rgba(220, 220, 220, 0.314);
-    display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
