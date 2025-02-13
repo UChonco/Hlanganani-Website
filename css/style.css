@@ -33,6 +33,19 @@ header nav{
     color: #c60404e2;
     transition: 0.5s;
 }
+#icon button{
+    background-color: transparent   ;
+    padding: 10px;
+    border: none;
+}
+#icon button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    
+
+
+
+}
 #nav-link{
     display: flex;
     list-style: none;
@@ -254,7 +267,7 @@ padding: 10px;
 #gallery{
     height: 100vh;
 
-    background-image: url(../image/gallery2.png);
+    background-image: url(../image/gallarybg2.png);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -292,13 +305,66 @@ padding: 10px;
 /*                               Contact Css                   */
 
 #contact{
-    height: 120vh;
+    height: 100vh;
+    background-image: url(/image/contactpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C60404;
  
 
 }
+#contact form{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
 
+  
+  
+ 
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
 
+}
+textarea{
+    resize: none;
+}
+#contact form button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #C60404;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#contact form h1{
+    text-align: center;
+}
 
+#contact input{
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+
+    border: none;
+    background-color: rgba(233, 233, 233, 0.51); 
+}
+#contact input::placeholder{
+    color: gray
+}
+#contact textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(233, 233, 233, 0.51);
+
+}
 /* form */
 
 #openlogin{
@@ -345,4 +411,66 @@ padding: 10px;
     color: white;
     width: 120px;
     height:40px;
+}
+
+footer{
+    height: 45vh;
+    background-color:#C60404;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color:#C60404;
+    padding: 20px;  
+
+}
+
+#contact-icon{
+    background-color:   white;
+    height: 8rem;
+    width: 8rem;
+    display:flex    ;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    font-size:2rem;
+    color:#C60404;
+}
+.contact-info{
+    color:white;
+}
+.contact-information{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.social-media{
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+}
+.social-media a{
+    color: white;
+
+}
+.scroll-to-top{
+  
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+.scroll-to-top a{
+    font-size: larger;
+    font-weight: 600px;
+    color: black;
+}
+.Rights{
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
 }

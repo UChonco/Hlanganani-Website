@@ -9,7 +9,7 @@
     <link rel="stylesheet"href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="home1">
         <nav>
            <h1 id="logo">ULIMI</h1>
            <input type="search" name="" id="search" placeholder=" &#xf002; search Product"   style="font-family:Arial, FontAwesome">   
@@ -24,8 +24,8 @@
            
             </ul>
             <div id="icon">
-                <button><i class="fa-solid fa-user"  id="icon" onclick="openLogin()"></i></button>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <button onclick="openLogin()"><i class="fa-solid fa-user"  id="icon" ></i></button>
+
             </div>
         </nav>
     </header>
@@ -271,14 +271,51 @@
 </section>
 
 <section id="contact">
-    <header>
-        <div class="line-container">
-            <div class="line"></div>
-            <h1>Contact Us</h1>
-            <div class="line"></div>
-        </div>
-    </header>
+   
+    <form action="">
+        <h1>Contact</h1>
+        <div class="contact-info">
+         <div>
+            <label for="">Email</label> <br>
+            <input type="email" name="" id="" placeholder="Enter Your Email">
+         </div>   
+  
+         <div>
+            <label for="">Name:</label> <br>
+            <input type="text" name="" id="" placeholder="Enter Your Name">
+         </div>
+      
+         </div>
+      <br>
+        <textarea name="" id="" placeholder="  Message"  ></textarea><br>
+        <button type="submit">Submit</button>
+
+    </form>
+  
 </section>
+
+<footer>
+   
+    <div class="contact-container">
+      
+        <div class="contact-information"><i class="fa-solid fa-envelope" id="contact-icon" ></i><p class="contact-info">hlangananiafricadevelopment@gmail.com</p></div>
+        <div  class="contact-information"> <i class="fa-solid fa-phone"id="contact-icon"></i> <p class="contact-info">Phone: 067 236 4162</p></div>
+        <div  class="contact-information"><i class="fa-sharp fa-solid fa-location-dot"id="contact-icon"></i><p class="contact-info">CPUT Symphony way, Belliville, Cape Town  7535</p></div> 
+    
+    </div>
+
+    <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <div class="scroll-to-top">
+        <a href="#home1"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <p class="Rights">2024 Hlanganani Foods Pty Ltd. All Rights Reserved.</p>
+    <script src="https://kit.fontawesome.com/e9c7a34475.js" crossorigin="anonymous"></script>
+</footer>
 
     <script src="https://kit.fontawesome.com/e9c7a34475.js" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
