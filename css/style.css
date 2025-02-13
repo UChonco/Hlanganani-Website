@@ -377,11 +377,30 @@ textarea{
     top: 0;
     left: 0;
     width: 100%;
+
+}
+.open-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logincontainer1{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    border-radius: 20px 0px  0px 20px;
+    font-style:italic;
+    font-weight: bold   ;
+    background-color:#C60404;
+    width: 20%  ;    
+    text-align: center;
+    height: 450px;
+
+
 }
 .logincontainer{
     font-family: "Open Sans", sans-serif;
     color: #C60404;
-    border-radius: 20px;
+    border-radius: 0px 20px  20px 0px;
     font-style:italic;
     font-weight: bold   ;
     background-color: white;
@@ -391,6 +410,13 @@ textarea{
 
 
 }
+#profilepic{
+    background-color: gray ;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
 
 .logincontainer input{
     width: 200px;
