@@ -449,14 +449,10 @@ footer{
 }
 
 .social-media{
-    text-align: center;
-    font-size: 1.4rem;
-    color: white;
-}
-.social-media a{
-    color: white;
 
+   text-align: center;
 }
+
 .scroll-to-top{
   
     position: fixed;
