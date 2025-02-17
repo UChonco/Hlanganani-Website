@@ -390,10 +390,11 @@ textarea{
     border-radius: 20px 0px  0px 20px;
     font-style:italic;
     font-weight: bold   ;
-    background-color:#C60404;
+    background-image: url(/image/signin.png);
+    background-size: cover;
     width: 20%  ;    
     text-align: center;
-    height: 450px;
+    height: 550px;
 
 
 }
@@ -406,9 +407,23 @@ textarea{
     background-color: white;
     width: 20%  ;    
     text-align: center;
-    height: 450px;
+    height: 550px;
 
 
+}
+
+#signupbtn{
+    background-color: transparent;
+    border: none;
+    color: #1104c6;
+    padding: 0%;
+    font-size:  large;
+    
+}
+#signupbtn:hover{
+
+    cursor: pointer;
+    color: #1104c6a9;
 }
 #profilepic{
     background-color: gray ;
@@ -430,7 +445,7 @@ textarea{
     padding-right: 10px;
 }
 
-.logincontainer button{
+#submitbtn{
     border: none;
     background-color:#C60404;
     border-radius: 20px;
@@ -438,7 +453,10 @@ textarea{
     width: 120px;
     height:40px;
 }
-
+#submitbtn:hover{
+    cursor: pointer;
+    background-color: #C60404a9;
+}
 footer{
     height: 45vh;
     background-color:#C60404;
