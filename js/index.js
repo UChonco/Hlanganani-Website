@@ -6,3 +6,4 @@ function openLogin(){
 function closeLogin(){
     document.getElementById("openlogin").style.display = "none"
 }
+

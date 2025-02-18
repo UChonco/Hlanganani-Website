@@ -24,21 +24,21 @@ header nav{
 #logo{
     cursor: pointer;
 }
-#icon i{
+.icon i{
     font-size: large;
     color: #C60404;
 }
-#icon i:hover{
+.icon i:hover{
     font-size:x-large;
     color: #c60404e2;
     transition: 0.5s;
 }
-#icon button{
+.icon button{
     background-color: transparent   ;
     padding: 10px;
     border: none;
 }
-#icon button:hover{
+.icon button:hover{
     cursor: pointer;
     transition: 0.5s;
     
@@ -139,13 +139,13 @@ padding: 10px;
 
 }
 
-#aboutinfo{
+.aboutinfo{
     display: flex;
     justify-content:space-around;
     width: 100%;
 }
 
-#aboutinfo h1{
+.aboutinfo h1{
     color: #C60404;
 }
 
@@ -379,6 +379,8 @@ textarea{
     width: 100%;
 
 }
+
+
 .open-container{
     display: flex;
     justify-content: center;
@@ -412,7 +414,7 @@ textarea{
 
 }
 
-#signupbtn{
+.signupbtn{
     background-color: transparent;
     border: none;
     color: #1104c6;
@@ -420,12 +422,12 @@ textarea{
     font-size:  large;
     
 }
-#signupbtn:hover{
+.signupbtn:hover{
 
     cursor: pointer;
     color: #1104c6a9;
 }
-#profilepic{
+.profilepic{
     background-color: gray ;
     padding: 30px;
     margin-top: 10px;
@@ -445,7 +447,7 @@ textarea{
     padding-right: 10px;
 }
 
-#submitbtn{
+.submitbtn{
     border: none;
     background-color:#C60404;
     border-radius: 20px;
@@ -453,7 +455,7 @@ textarea{
     width: 120px;
     height:40px;
 }
-#submitbtn:hover{
+.submitbtn:hover{
     cursor: pointer;
     background-color: #C60404a9;
 }
@@ -462,6 +464,22 @@ footer{
     background-color:#C60404;
 }
 
+
+/*                                  Sign Up                                                  */
+#opensignup{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.314);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+/*                                    End                                                   */
 .contact-container{
     display: flex;
     justify-content: space-between; 
@@ -471,7 +489,17 @@ footer{
 
 }
 
-#contact-icon{
+ 
+.contact-info{
+    color:white;
+}
+.contact-information{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.contact-information i{
     background-color:   white;
     height: 8rem;
     width: 8rem;
@@ -483,14 +511,7 @@ footer{
     font-size:2rem;
     color:#C60404;
 }
-.contact-info{
-    color:white;
-}
-.contact-information{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
+
 
 .social-media{
 
