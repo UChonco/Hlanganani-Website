@@ -120,7 +120,7 @@ padding: 10px;
 
 /*                               About Css                   */
 #about{
-    height: 150vh;
+    height: 110vh;
 }
 .line-container{
     display: flex;
@@ -172,7 +172,7 @@ padding: 10px;
 .teamicon{
     background-color: white;
     border-radius: 50%;
-    height: 85px;
+    height: 100px;
     width: 50%;
     margin-left: 25%;
     object-fit:cover;
@@ -194,7 +194,7 @@ padding: 10px;
     padding-top: 20px;
     background-color: #C60404;
     width: 12%;
-    height: 15%;
+    height: 20%;
 
 
 }
@@ -266,7 +266,6 @@ padding: 10px;
 
 #gallery{
     height: 100vh;
-
     background-image: url(../image/gallarybg2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,27 +277,116 @@ padding: 10px;
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
-    padding-top:60px;
+    padding-top:120px;
 }
 
 .galleryitem{
     background-color:#C60404;
-    height: 320px;
+    height: 400px;
     width: 40%;
+}
+.galleryitem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.galleryitem a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 
 
 .galleryitem2{
     background-color:#000000;
-    height: 160px;
+    height: 200px;
     width: 10%;
 }
 
-.descrip{
-    background-color: white;
+.galleryitem2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.galleryitem2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desc{ 
+    background-color:#c604049f;
+    height: 50px    ;
     width: 100%;
 }
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:#C60404;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    font-size: small;
+    color: white;
+  }
+.mySlides {display: none}
+
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top:400%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color:#C60404;
+    color: white;
+  }
+  
+  .active, .dot:hover {
+    background-color:#c604048e;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
 
 /*                          End                         */
 
@@ -346,8 +434,8 @@ textarea{
 }
 
 #contact input{
-    width: 200px;
-    height: 35px;
+    width: 250px;
+    height: 50px;
     border-radius: 20px;
     padding-left: 10px;
 
@@ -359,7 +447,7 @@ textarea{
 }
 #contact textarea{
     width: 100%;
-    height: 100px;
+    height: 200px;
     border-radius: 20px;
     border: none;
     background-color: rgba(233, 233, 233, 0.51);
@@ -467,7 +555,7 @@ footer{
 
 /*                                  Sign Up                                                  */
 #opensignup{
-    display: flex;
+    display: none;
     position: fixed;
     height: 100vh;
     background-color: rgba(220, 220, 220, 0.314);
@@ -479,6 +567,56 @@ footer{
 
 }
 
+.signupcontainer{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    border-radius: 20px 0px  0px 20px;
+    font-style:italic;
+    font-weight: bold   ;
+    background-image: url(/image/signin.png);
+    background-size: cover;
+    width: 21%  ;    
+    text-align: center;
+    height: 550px;
+    text-align: center;
+}
+
+
+.signupcontainer1{
+    font-family: "Open Sans", sans-serif;
+    color: #C60404;
+    border-radius: 0px 20px  20px 0px;
+    font-style:italic;
+    font-weight: bold   ;
+    background-color: white;
+    width: 21%  ;           
+    height: 550px;
+  
+
+}
+.signupcontainer1 h1{
+    text-align: center;
+}
+.signupinfo{
+    display: flex;
+    justify-content:space-around;
+}
+
+.signupinfo input{
+    height: 30px;
+    border-radius: 5px;
+}
+.signupinfo1{
+    margin-left: 10px;
+}
+.signupinfo1 input{
+    width: 95.5%;
+    height: 30px;
+    border-radius: 5px;
+}
+.submit{
+    text-align: center;
+}
 /*                                    End                                                   */
 .contact-container{
     display: flex;
