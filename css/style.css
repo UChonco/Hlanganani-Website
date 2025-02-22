@@ -693,49 +693,75 @@ footer{
 }
 
 .ourproductcontainer{
-    height:100%;
+ 
     display: flex;
 
 }
+
 .productbox{
+
     height: 50vh;
     width:50%;
-
+    padding:25px;
+   
   
 
+}
+.productbox h3{
+    color:#C60404;  
+ 
 }
 .productbox h1{
     color: #000000;
     font-size: 2.5rem;
+    margin: 0%;
+    padding: 0%;
 }
 
 .productbox p{
     color: #C60404;
+    margin: 0%;
+    padding: 0%;
 }
 #viewbtn{
     color: white;
     background-color: #C60404;
     padding: 20px 60px 20px 60px;
-    
-    
-
-
-
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
 }
 .productbox1{
-    height: 50vh;
 
+    padding-top: 50px;
+    height: 50%;
     width:50%;
-    background-color: #52c604;
+    
   
 
 }
+.productlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.productlist h4{
+    margin: 0%;
+    padding: 0%;
+}
 
+.recommendation img{
+    height: 200px;
+    width: 200px;
+}
 .pcontainer1
 {
     height: 100vh;
     background-color: #1104c6;
     width: 50%;
 }
+
 
 /*End*/
