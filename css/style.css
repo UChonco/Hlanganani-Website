@@ -2,6 +2,13 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+
+/* Responsive*/
+
+
+
+   
+
 body{
     margin: 0%;
 
@@ -82,13 +89,24 @@ padding: 10px;
     font-family: "Open Sans", sans-serif;
     background-image: url(../image/BG.png);
     height: 90vh;
-    background-repeat: no-repeat;
+
     background-size:cover;
+
     
     
 
 
   
+}
+
+@media (max-width: 1325px){
+    #home{ 
+        font-family: "Open Sans", sans-serif;
+        background-image: url(../image/Adobe\ Express\ -\ file.png);
+        height: 90vh;
+  
+    }
+    
 }
 #hometext{
     padding-top: 12%;
@@ -122,6 +140,13 @@ padding: 10px;
 #about{
     height: 110vh;
 }
+@media (max-width:1325px){
+    #about{
+        height: 130vh;
+    }
+
+}
+
 .line-container{
     display: flex;
     justify-content: center;
@@ -179,6 +204,21 @@ padding: 10px;
     
  
 }
+@media (max-width:1325px){
+    .teamicon{
+        background-color: white;
+        border-radius: 50%;
+        height: 100px;
+        width: 50%;
+        margin-left: 25%;
+        object-fit:cover;
+        
+     
+    }
+
+}
+
+
 .teamcontainer{
     display: flex;
     justify-content: space-around;
@@ -187,6 +227,8 @@ padding: 10px;
     margin-bottom: 30px;
 
 }
+
+
 .teammember{    
     color: white;
     border-radius: 20px;
@@ -196,6 +238,21 @@ padding: 10px;
     width: 12%;
     height: 20%;
 
+
+}
+
+@media (max-width:1325px){
+    .teammember{    
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 20px;
+        background-color: #C60404;
+        width: 12%;
+        height: 10%;
+    
+    
+    }
 
 }
 /*                               End                 */
@@ -770,6 +827,13 @@ footer{
     height: 270px;
     width: 270px;
 }
+@media (max-width:1325px){
+    .recommendation img{
+        height: 170px;
+        width: 170px;
+    }
+
+}
 .recommendation img:hover{
     cursor: pointer;
 }
@@ -784,7 +848,7 @@ footer{
 
 /*End*/
 
-/*End*/
+
 
 /*Product Page*/
 .subpcontainer{
@@ -826,5 +890,4 @@ footer{
     padding: 20px 40px 20px 20px;
     border: solid #C60404 2px;
 }
-
 
