@@ -751,7 +751,13 @@ footer{
     margin: 0%;
     padding: 0%;
 }
-
+.recomendationcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
 .recommendation img{
     height: 200px;
     width: 200px;
