@@ -568,7 +568,7 @@ footer{
 
 }
 
-.signupcontainer{
+.signupcontainer{   
     background-image: url(../image/signin.png);
     font-family: "Open Sans", sans-serif;
     color: white;
@@ -733,6 +733,9 @@ footer{
     border: none;
     border-radius: 20px 0px 20px 0px;
 }
+#viewbtn:hover{
+    cursor: pointer;
+}
 .productbox1{
 
     padding-top: 50px;
@@ -740,6 +743,10 @@ footer{
     width:50%;
     
   
+
+}
+.productbox1:hover{
+    cursor:pointer;
 
 }
 .productlist{
@@ -760,15 +767,63 @@ footer{
     padding: 20px;
 }
 .recommendation img{
-    height: 200px;
-    width: 200px;
+    height: 270px;
+    width: 270px;
+}
+.recommendation img:hover{
+    cursor: pointer;
 }
 .pcontainer1
 {
     height: 100vh;
-    background-color: #1104c6;
+  
     width: 50%;
 }
 
 
+
 /*End*/
+
+
+
+/*Product Page*/
+.subpcontainer{
+    padding-bottom:50px
+}
+
+.pcontainertext{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+
+}
+.subpcontainer img{
+ height: 350px;
+ width: 250px;
+ margin: 0%;
+ padding: 0%;
+
+}
+.subpcontainer  img:hover{
+    cursor:pointer;
+}
+.maincontainer{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+#pname{
+    background-color: #C60404;
+    color: white;
+    padding: 20px 40px 20px 20px;
+    font-size:medium;
+    border-radius: 50px 0px  0px 0px;
+}
+#pitem{
+    background-color: white;
+    color: #C60404;
+    padding: 20px 40px 20px 20px;
+    border: solid #C60404 2px;
+}
+
